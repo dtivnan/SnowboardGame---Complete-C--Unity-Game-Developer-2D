@@ -15,6 +15,7 @@ public class CrashDetector : MonoBehaviour
     {
         if(other.tag == "World")
         {
+            FindObjectOfType<PlayerController>().DisableControls();
             crashEffect.Play();
             GetComponent<AudioSource>().PlayOneShot(crashSFX);
             Invoke("ReloadScene", CrashDelay);
