@@ -153,6 +153,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1623b6897a47a66468f4435554906a51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finishDelay: 1.02
 --- !u!61 &266462209
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1338,3 +1339,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c4c118cf169fab4abcb08bde8a65568, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  CrashDelay: 1
